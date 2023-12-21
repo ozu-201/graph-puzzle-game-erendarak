@@ -6,6 +6,8 @@
 #define GRAPH_PUZZLE_GAME_ERENDARAK_MAIN_H
 
 
+#include "Graph.h"
+
 class Main {
 
 };

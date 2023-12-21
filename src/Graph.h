@@ -12,8 +12,12 @@ class Graph{
 private:
     EdgeList *edges;
 public:
-    explicit Graph(int vertexCount);
+    Graph(int vertexCount);
     ~Graph();
+
+    void addEdge(int from, int to);
+
+    void breadthFirstSearch(bool *visited, int startNode);
 };
 
 

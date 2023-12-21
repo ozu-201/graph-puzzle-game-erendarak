@@ -10,7 +10,10 @@ using namespace std;
 
 
 void check(){
-    string text[1000];
+    string text[48543];
+    string text3[48543];
+    string text4[48543];
+    string text5[48543];
     string temp;
     ifstream file;
     file.open(R"(C:\Users\TEMP\Desktop\temp.txt)");
@@ -20,11 +23,22 @@ void check(){
         i++;
     }
 
-    for(int j = 0; j < 3; j++){
-        cout << text[j] << endl;
+    for(int j = 0; j < 48543; j++){
+        if (text[j].length() == 3){
+            text3[j] = text[j];
+        }
+        if (text[j].length() == 3){
+            text4[j] = text[j];
+        }
+        if (text[j].length() == 3){
+            text5[j] = text[j];
+        }
     }
 
+    Graph* graph = new Graph(48543);
+
 }
+
 
 int main(){
 
