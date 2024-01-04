@@ -4,22 +4,21 @@
 
 #ifndef GRAPH_PUZZLE_GAME_ERENDARAK_EDGE_H
 #define GRAPH_PUZZLE_GAME_ERENDARAK_EDGE_H
-
+#include <iostream>
 
 class Edge {
 private:
-    int from;
-    int to;
-    int weight;
-    Edge* next;
+    std::string from;      //From node
+    std::string to;        //To node
+    int weight;            //Weight of the edge
+    Edge* next;            //Pointer to the next node
 public:
-    Edge();
-    Edge(int from, int to, int weight);
+    Edge(std::string from, std::string to, int weight);
     void setNext(Edge* _next);
     Edge* getNext() const;
-    int getFrom() const;
-    int getTo() const;
     int getWeight() const;
+    const std::string &getFrom() const;
+    const std::string &getTo() const;
 
 };
 

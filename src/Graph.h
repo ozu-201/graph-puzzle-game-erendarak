@@ -7,17 +7,21 @@
 
 
 #include "EdgeList.h"
+#include <iostream>
 
 class Graph{
 private:
     EdgeList *edges;
+    std::string *words;
 public:
     Graph(int vertexCount);
     ~Graph();
 
-    void addEdge(int from, int to);
+    void addEdge(std::string from, std::string to);
 
-    void breadthFirstSearch(bool *visited, int startNode);
+    void BFS(std::string startNode, std::string endNode);
+
+    void addWord(std::string string1);
 };
 
 

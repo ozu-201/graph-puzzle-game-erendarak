@@ -224,6 +224,54 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/Node.obj: src/Node.cpp.obj
+.PHONY : src/Node.obj
+
+# target to build an object file
+src/Node.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj
+.PHONY : src/Node.cpp.obj
+
+src/Node.i: src/Node.cpp.i
+.PHONY : src/Node.i
+
+# target to preprocess a source file
+src/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.i
+.PHONY : src/Node.cpp.i
+
+src/Node.s: src/Node.cpp.s
+.PHONY : src/Node.s
+
+# target to generate assembly for a file
+src/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.s
+.PHONY : src/Node.cpp.s
+
+src/Queue.obj: src/Queue.cpp.obj
+.PHONY : src/Queue.obj
+
+# target to build an object file
+src/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj
+.PHONY : src/Queue.cpp.obj
+
+src/Queue.i: src/Queue.cpp.i
+.PHONY : src/Queue.i
+
+# target to preprocess a source file
+src/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.i
+.PHONY : src/Queue.cpp.i
+
+src/Queue.s: src/Queue.cpp.s
+.PHONY : src/Queue.s
+
+# target to generate assembly for a file
+src/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.s
+.PHONY : src/Queue.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,6 +293,12 @@ help:
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
+	@echo ... src/Node.obj
+	@echo ... src/Node.i
+	@echo ... src/Node.s
+	@echo ... src/Queue.obj
+	@echo ... src/Queue.i
+	@echo ... src/Queue.s
 .PHONY : help
 
 

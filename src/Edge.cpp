@@ -3,13 +3,22 @@
 //
 
 #include "Edge.h"
+#include <iostream>
 
-Edge::Edge(int from, int to, int weight) {
+/**
+ * Constructor of the edge class. Takes from, to nodes and a weight from to to if exists.
+ * @param from
+ * @param to
+ * @param weight
+ */
+Edge::Edge(std::string from, std::string to, int weight) {
     this->from = from;
     this->to = to;
     this->weight = weight;
     next = nullptr;
 }
+
+// GETTERS AND SETTERS BELOW HERE
 void Edge::setNext(Edge *_next) {
     next = _next;
 }
@@ -18,18 +27,14 @@ Edge *Edge::getNext() const{
     return next;
 }
 
-int Edge::getFrom() const{
-    return from;
-}
-
-int Edge::getTo() const{
-    return to;
-}
-
 int Edge::getWeight() const{
     return weight;
 }
 
-Edge::Edge() {
+const std::string &Edge::getFrom() const {
+    return from;
+}
 
+const std::string &Edge::getTo() const {
+    return to;
 }

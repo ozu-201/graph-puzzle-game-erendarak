@@ -80,12 +80,12 @@ clean: CMakeFiles/graph_puzzle_game_erendarak.dir/clean
 CMakeFiles/graph_puzzle_game_erendarak.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_puzzle_game_erendarak.dir\build.make CMakeFiles/graph_puzzle_game_erendarak.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target graph_puzzle_game_erendarak"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target graph_puzzle_game_erendarak"
 .PHONY : CMakeFiles/graph_puzzle_game_erendarak.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graph_puzzle_game_erendarak.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/graph_puzzle_game_erendarak.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/graph_puzzle_game_erendarak.dir/rule

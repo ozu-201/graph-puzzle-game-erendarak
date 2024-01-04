@@ -108,6 +108,18 @@
 		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Main.h">
 			<Option target="graph_puzzle_game_erendarak"/>
 		</Unit>
+		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Node.cpp">
+			<Option target="graph_puzzle_game_erendarak"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Node.h">
+			<Option target="graph_puzzle_game_erendarak"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Queue.cpp">
+			<Option target="graph_puzzle_game_erendarak"/>
+		</Unit>
+		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Queue.h">
+			<Option target="graph_puzzle_game_erendarak"/>
+		</Unit>
 		<Unit filename="C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

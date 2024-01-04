@@ -4,11 +4,17 @@
 
 #include "EdgeList.h"
 
+/**
+ * Constructor of the edgeList class. It constructs in a linked list manner.
+ */
 EdgeList::EdgeList() {
     head = nullptr;
     tail = nullptr;
 }
 
+/**
+ * This is a deletion function for edgeLists need to be deleted.
+ */
 EdgeList::~EdgeList() {
     Edge *tmp = head;
     Edge *next;
@@ -18,22 +24,18 @@ EdgeList::~EdgeList() {
         tmp = next;
     }
 }
-
+/**
+ * Is empty for edgeList class. Returns true if it is empty.
+ * @return
+ */
 bool EdgeList::isEmpty() const {
     return head == nullptr;
 }
 
-Edge *EdgeList::search(int to) const{
-    Edge* tmp = head;
-    while (tmp != nullptr) {
-        if (to == tmp->getTo()) {
-            return tmp;
-        }
-        tmp = tmp->getNext();
-    }
-    return nullptr;
-}
-
+/**
+ * An insertion method for the edgeList. It takes the given edge and adds it to the end of the list.
+ * @param newEdge
+ */
 void EdgeList::insert(Edge *newEdge) {
     if (head == nullptr) {
         head = newEdge;
@@ -43,6 +45,7 @@ void EdgeList::insert(Edge *newEdge) {
     tail = newEdge;
 }
 
+// GETTERS AND SETTERS BELOW HERE
 Edge *EdgeList::getHead() {
     return head;
 }

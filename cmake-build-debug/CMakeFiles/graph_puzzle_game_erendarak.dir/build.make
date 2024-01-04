@@ -128,12 +128,44 @@ CMakeFiles/graph_puzzle_game_erendarak.dir/src/EdgeList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_puzzle_game_erendarak.dir/src/EdgeList.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\EdgeList.cpp -o CMakeFiles\graph_puzzle_game_erendarak.dir\src\EdgeList.cpp.s
 
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/flags.make
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/includes_CXX.rsp
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Queue.cpp
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj -MF CMakeFiles\graph_puzzle_game_erendarak.dir\src\Queue.cpp.obj.d -o CMakeFiles\graph_puzzle_game_erendarak.dir\src\Queue.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Queue.cpp
+
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Queue.cpp > CMakeFiles\graph_puzzle_game_erendarak.dir\src\Queue.cpp.i
+
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Queue.cpp -o CMakeFiles\graph_puzzle_game_erendarak.dir\src\Queue.cpp.s
+
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/flags.make
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/includes_CXX.rsp
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj: C:/Users/TEMP/Documents/GitHub/graph-puzzle-game-erendarak/src/Node.cpp
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj: CMakeFiles/graph_puzzle_game_erendarak.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj -MF CMakeFiles\graph_puzzle_game_erendarak.dir\src\Node.cpp.obj.d -o CMakeFiles\graph_puzzle_game_erendarak.dir\src\Node.cpp.obj -c C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Node.cpp
+
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Node.cpp > CMakeFiles\graph_puzzle_game_erendarak.dir\src\Node.cpp.i
+
+CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\src\Node.cpp -o CMakeFiles\graph_puzzle_game_erendarak.dir\src\Node.cpp.s
+
 # Object files for target graph_puzzle_game_erendarak
 graph_puzzle_game_erendarak_OBJECTS = \
 "CMakeFiles/graph_puzzle_game_erendarak.dir/src/Main.cpp.obj" \
 "CMakeFiles/graph_puzzle_game_erendarak.dir/src/Graph.cpp.obj" \
 "CMakeFiles/graph_puzzle_game_erendarak.dir/src/Edge.cpp.obj" \
-"CMakeFiles/graph_puzzle_game_erendarak.dir/src/EdgeList.cpp.obj"
+"CMakeFiles/graph_puzzle_game_erendarak.dir/src/EdgeList.cpp.obj" \
+"CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj" \
+"CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj"
 
 # External object files for target graph_puzzle_game_erendarak
 graph_puzzle_game_erendarak_EXTERNAL_OBJECTS =
@@ -142,11 +174,13 @@ graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/Graph.cpp.obj
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/Edge.cpp.obj
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/EdgeList.cpp.obj
+graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/Queue.cpp.obj
+graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/src/Node.cpp.obj
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/build.make
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/linkLibs.rsp
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/objects1
 graph_puzzle_game_erendarak.exe: CMakeFiles/graph_puzzle_game_erendarak.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable graph_puzzle_game_erendarak.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TEMP\Documents\GitHub\graph-puzzle-game-erendarak\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable graph_puzzle_game_erendarak.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graph_puzzle_game_erendarak.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

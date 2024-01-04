@@ -16,7 +16,6 @@ public:
     EdgeList();
     ~EdgeList();
     bool isEmpty() const;
-    Edge* search(int to) const;
     void insert(Edge* newEdge);
     Edge* getHead();
 };
